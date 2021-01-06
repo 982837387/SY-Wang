@@ -11,7 +11,7 @@ keywords: 椿兮如梦、, SY-Wang, 技术总结与分享
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: mzlogin/SY-Wang.github.io
+repository: 982837387/SY-Wang.github.io
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
