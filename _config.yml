@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://982837387.github.io/SY-Wang.github.io/
+url: https://982837387.github.io/SY-Wang
 date_format: "ordinal"
 title: 椿兮如梦、
 subtitle: "技术、工作、生活、分享"
@@ -11,7 +11,7 @@ keywords: 椿兮如梦、, SY-Wang, 技术总结与分享
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
-repository: 982837387/SY-Wang.github.io
+repository: 982837387/SY-Wang
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
