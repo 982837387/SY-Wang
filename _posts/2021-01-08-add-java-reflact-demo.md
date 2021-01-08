@@ -1,6 +1,6 @@
 ---
 layout: post
-title: java反射机制
+title: java反射
 categories: Java
 description: java反射的基本概念及代码层面的实现及使用。
 keywords: java, 反射机制
