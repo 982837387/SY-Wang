@@ -24,7 +24,7 @@ components:
     # 不蒜子访问统计
     busuanzi:
         enabled: true
-        start_date: 2020-05-03
+        start_date: 2020-12-20
 # 压缩页面内容
 compress_html:
   clippings: all
@@ -141,7 +141,7 @@ simple_jekyll_search:
     # 是否支持全文搜索
     fulltext: false
     # 最多显示多少条搜索结果
-    limit: 7
+    limit: 10
 
 # ---------------- #
 #      Google      #
