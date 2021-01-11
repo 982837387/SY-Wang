@@ -127,7 +127,7 @@ gitment:
         client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: 982837387@qq.com
+    owner: SY-Wang
     repo: https://github.com/982837387/SY-Wang
     clientID: f28d1262599af0d119b8
     clientSecret: 7795014d2860d173117cc99a1900b41661021e16
