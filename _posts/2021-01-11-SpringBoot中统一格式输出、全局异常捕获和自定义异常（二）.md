@@ -5,6 +5,7 @@ categories: SpringBoot
 description: springboot中统一格式输出、全局异常捕获和自定义异常（二）
 keywords: Java, 统一格式输出,全局异常处理,自定义异常
 ---
+这里总结下SpringBoot中统一格式输出、全局异常捕获和自定义异常第二部分。
 
 **二、自定义异常捕获和处理**
 ***2.1前言***
