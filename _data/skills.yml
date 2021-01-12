@@ -1,19 +1,27 @@
 - name: Software Engineer Keywords
   keywords:
       - Java
-      - C++
-      - Python
+      - C#
+      - .Net
+      - JavaScript
+      - Vue
+      - React
       - Design Patterns
 
-- name: Mobile Developer Keywords
+- name: Front-end Developer Keywords
   keywords:
-      - Android
+      - Html
+      - BootStrap
+      - RuoYi
+      - Ant Design
       - Reverse Engineering
 
-- name: Windows Developer Keywords
+- name: other Developer Keywords
   keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+      - Spring
+      - SpringBoot
+      - Spring Cloud
+      - Mybatis
+      - Redis
+      - RabbitMQ
+      - Git
