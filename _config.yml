@@ -128,9 +128,9 @@ gitment:
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: 982837387
-    repo: http://SY-Wang/
-    clientID: f28d1262599af0d119b8
-    clientSecret: 7795014d2860d173117cc99a1900b41661021e16
+    repo: blog-comments
+    clientID: 0eb4e5c917cf783bcac6
+    clientSecret: 44706c16fa052e9b4b772763e63ac4560846b6c5
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
