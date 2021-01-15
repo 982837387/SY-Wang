@@ -12,15 +12,15 @@ GitLab地址：[https://gitlab.com/982837387/UnionPayGetWay.git
 
 
 本文对接银联商务公众号+服务窗支付，实现支付下单、[订单查询](https://blog.csdn.net/weixin_40550118/article/details/103972599)、[订单退款](https://blog.csdn.net/weixin_40550118/article/details/103974117)、[退款查询](https://blog.csdn.net/weixin_40550118/article/details/103974578)和[订单关闭](https://blog.csdn.net/weixin_40550118/article/details/103974978)几个功能，使用到银联商务的公众+服务窗支付接口规范，请自行百度下载。
-一、接入前准备
+## 一、接入前准备
 创建maven项目，项目目录如下，各目录功能不再详细介绍，直接看接口和功能。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200114135034121.png)
-二、接口及代码实现
-1.支付下单接口
-1.1接口规范
+## 二、接口及代码实现
+### 1.支付下单接口
+#### 1.1接口规范
 	接口规范请查看下载的银联商务公众号+服务窗接口规范**下单接口**部分，这里不做展示。
-1.2 代码实现
-1.2.1 UnionPayOnlineController代码
+#### 1.2 代码实现
+##### 1.2.1 UnionPayOnlineController代码
 
 
 ```java
@@ -210,7 +210,7 @@ public class UnionPayOnlineController {
 }
 
 ```
-1.2.2 UnionpayServiceimpl代码
+##### 1.2.2 UnionpayServiceimpl代码
 本部分代码为银联商务支付下单接口服务。
 
 ```java
@@ -285,7 +285,7 @@ public class UnionPayOnlineController {
 		return url.toString();
 	}
 ```
-1.3 支付结果截图
+#### 1.3 支付结果截图
 在下单接口中，我先在写了一个支付的html页面，用于显示支付信息，用户点击“去支付”按钮调起图二支付页面，支付完成时，用户点击“完成”按钮，跳转到程序中指定的returnurl地址中，支付结果通知到notifyurl地址中。
 支付下单参数由银联商务分配的参数填入。
 
