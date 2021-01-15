@@ -8,7 +8,7 @@ keywords: Java, 银联商务支付,公众号支付,支付下单
 
 Java实现银联商务公众号+服务窗对接----支付下单
 
-GitLab地址：[https://gitlab.com/982837387/UnionPayGetWay.git
+GitLab地址：https://gitlab.com/982837387/UnionPayGetWay.git
 
 
 本文对接银联商务公众号+服务窗支付，实现支付下单、[订单查询](https://blog.csdn.net/weixin_40550118/article/details/103972599)、[订单退款](https://blog.csdn.net/weixin_40550118/article/details/103974117)、[退款查询](https://blog.csdn.net/weixin_40550118/article/details/103974578)和[订单关闭](https://blog.csdn.net/weixin_40550118/article/details/103974978)几个功能，使用到银联商务的公众+服务窗支付接口规范，请自行百度下载。
@@ -16,11 +16,16 @@ GitLab地址：[https://gitlab.com/982837387/UnionPayGetWay.git
 创建maven项目，项目目录如下，各目录功能不再详细介绍，直接看接口和功能。
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200114135034121.png)
 ## 二、接口及代码实现
+
 ### 1.支付下单接口
+
 #### 1.1接口规范
+
 	接口规范请查看下载的银联商务公众号+服务窗接口规范**下单接口**部分，这里不做展示。
 #### 1.2 代码实现
+
 ##### 1.2.1 UnionPayOnlineController代码
+
 
 
 ```java
